@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- Removed Sources -->
-  <remove-project name="Euphoria-OS-Legacy/android_build" />
   <remove-project name="Euphoria-OS-Legacy/android_vendor_eos" />
 
   <!-- Device Specific Sources -->
@@ -23,8 +22,5 @@
   <project name="UBERUTILS/linaro-arm-eabi-4.10" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-linaro" remote="github" revision="master" />
 
   <!-- Patched Euphoria Sources -->
-  <project name="Euphoria-G2/android_build" path="build" remote="github" revision="lollipop">
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project name="Euphoria-G2/android_vendor_eos" path="vendor/eos" remote="github" revision="lollipop" />
 </manifest>
