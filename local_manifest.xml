@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- Removed Sources -->
-  <remove-project name="Euphoria-OS-Legacy/android_vendor_eos" />
-
   <!-- Device Specific Sources -->
   <project name="Euphoria-G2/android_device_lge_d800" path="device/lge/d800" remote="github" revision="cm-12.0" />
   <project name="Euphoria-G2/android_device_lge_d801" path="device/lge/d801" remote="github" revision="cm-12.0" />
@@ -20,7 +17,4 @@
 
   <!-- Linaro Toolchain for Kernel -->
   <project name="UBERUTILS/linaro-arm-eabi-4.10" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-linaro" remote="github" revision="master" />
-
-  <!-- Patched Euphoria Sources -->
-  <project name="Euphoria-G2/android_vendor_eos" path="vendor/eos" remote="github" revision="lollipop" />
 </manifest>
