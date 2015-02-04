@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- Remove Default Settings App (Ours fixes the FC) -->
+  <remove-project name="Euphoria-OS-Legacy/android_packages_apps_Settings" />
+
   <!-- Device Specific Sources -->
   <project name="Euphoria-G2/android_device_lge_d800" path="device/lge/d800" remote="github" revision="lollipop" />
   <project name="Euphoria-G2/android_device_lge_d801" path="device/lge/d801" remote="github" revision="lollipop" />
@@ -11,6 +14,9 @@
   <project name="Euphoria-G2/android_device_lge_g2-common" path="device/lge/g2-common" remote="github" revision="lollipop" />
   <project name="Euphoria-G2/android_kernel_lge_msm8974" path="kernel/lge/msm8974" remote="github" revision="lollipop"/>
   <project name="lg-devs/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-12.0" />
+
+  <!-- Patched Settings App -->
+  <project name="Euphoria-G2/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="lollipop" />
 
   <!-- Qcom Common Source -->
   <project name="Euphoria-OS-Legacy/android_device_qcom_common" path="device/qcom/common" remote="github" revision="lollipop" />
