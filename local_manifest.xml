@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- Remove Default Settings App (Ours fixes the FC) -->
+  <!-- Removed Sources -->
+  <remove-project name="Euphoria-OS-Legacy/android_build" />
   <remove-project name="Euphoria-OS-Legacy/android_packages_apps_Settings" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" />
 
   <!-- Device Specific Sources -->
   <project name="Euphoria-G2/android_device_lge_d800" path="device/lge/d800" remote="github" revision="lollipop" />
@@ -15,12 +17,17 @@
   <project name="Euphoria-G2/android_kernel_lge_msm8974" path="kernel/lge/msm8974" remote="github" revision="lollipop"/>
   <project name="lg-devs/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-12.0" />
 
-  <!-- Patched Settings App -->
+  <!-- Patched Euphoria Sources -->
+  <project name="Euphoria-G2/android_build" path="build" remote="github" revision="lollipop">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   <project name="Euphoria-G2/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="lollipop" />
 
   <!-- Qcom Common Source -->
   <project name="Euphoria-OS-Legacy/android_device_qcom_common" path="device/qcom/common" remote="github" revision="lollipop" />
 
-  <!-- Linaro Toolchain for Kernel -->
+  <!-- Custom Toolchains -->
+  <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" remote="aosp" />
+  <project name="SaberMod/arm-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-androideabi-4.8-sm" remote="github" revision="master" />
   <project name="UBERUTILS/linaro-arm-eabi-4.10" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-linaro" remote="github" revision="master" />
 </manifest>
