@@ -3,7 +3,6 @@
   <!-- Removed Sources -->
   <remove-project name="Euphoria-OS-Legacy/android_build" />
   <remove-project name="Euphoria-OS-Legacy/android_packages_apps_Settings" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" />
 
   <!-- Device Specific Sources -->
   <project name="Euphoria-G2/android_device_lge_d800" path="device/lge/d800" remote="github" revision="lollipop" />
@@ -28,6 +27,6 @@
 
   <!-- Custom Toolchains -->
   <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" remote="aosp" />
-  <project name="SaberMod/arm-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-androideabi-4.8-sm" remote="github" revision="master" />
+  <project name="SaberMod/arm-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-sm" remote="github" revision="master" />
   <project name="UBERUTILS/linaro-arm-eabi-4.10" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-linaro" remote="github" revision="master" />
 </manifest>
