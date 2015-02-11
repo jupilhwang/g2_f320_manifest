@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+  <remote name="lollipop" fetch=".." />
+  <default revision="refs/tags/master" remote="lollipop" sync-j="16" />
   <!-- Removed Sources -->
   <!--
   <remove-project name="Euphoria-OS-Legacy/android_build" />
