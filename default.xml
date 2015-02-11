@@ -14,7 +14,7 @@
   <!-- Device Specific Sources -->
   <project name="Euphoria-G2/android_device_lge_f320" path="device/lge/f320" remote="github" revision="lollipop" />
   <project name="Euphoria-G2/android_device_lge_g2-common" path="device/lge/g2-common" remote="github" revision="lollipop" />
-  <project name="Euphoria-G2/android_kernel_lge_msm8974" path="kernel/lge/msm8974" remote="github" revision="lollipop"/>
+  <project name="Euphoria-OS-Legacy/android_kernel_lge_msm8974" path="kernel/lge/msm8974" remote="github" revision="lollipop"/>
   <project name="lg-devs/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-12.0" />
 
   <!-- Patched Euphoria Sources -->
