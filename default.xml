@@ -12,8 +12,8 @@
 -->
 
   <!-- Device Specific Sources -->
-  <project name="Euphoria-G2/android_device_lge_f320" path="device/lge/f320" remote="github" revision="lollipop" />
-  <project name="Euphoria-G2/android_device_lge_g2-common" path="device/lge/g2-common" remote="github" revision="lollipop" />
+  <project name="Euphoria-OS-Legacy/android_device_lge_f320" path="device/lge/f320" remote="github" revision="lollipop" />
+  <project name="Euphoria-OS-Legacy/android_device_lge_g2-common" path="device/lge/g2-common" remote="github" revision="lollipop" />
   <project name="Euphoria-OS-Legacy/android_kernel_lge_msm8974" path="kernel/lge/msm8974" remote="github" revision="lollipop"/>
   <project name="lg-devs/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-12.0" />
 
@@ -30,5 +30,5 @@
   <!-- Custom Toolchains -->
   <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" remote="aosp" revision="master"/>
   <project name="SaberMod/arm-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-sm" remote="github" revision="master" />
-  <project name="UBERUTILS/linaro-arm-eabi-4.10" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-linaro" remote="github" revision="master" />
+  <project name="AOSCP-KDK/linaro-arm-eabi-4.10" path="libexec/gcc/arm-eabi/4.10.0" remote="github" revision="master" />
 </manifest>
