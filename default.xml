@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- Removed Sources -->
+  <!--
   <remove-project name="Euphoria-OS-Legacy/android_build" />
   <remove-project name="Euphoria-OS-Legacy/android_packages_apps_Settings" />
   <remove-project name="Euphoria-OS-Legacy/android_vendor_eos" />
+  -->
 
   <!-- Device Specific Sources -->
   <project name="Euphoria-G2/android_device_lge_f320" path="device/lge/f320" remote="github" revision="lollipop" />
