@@ -2,6 +2,7 @@
 <manifest>
 
   <remote name="github" fetch="git://github.com/" />
+  <remote name="aosp" fetch="https://android.googlesource.com/" />
   <default revision="refs/tags/master" remote="github" sync-j="16" />
   <!-- Removed Sources -->
   <!--
