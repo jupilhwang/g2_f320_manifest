@@ -3,13 +3,13 @@
 
   <remote name="github" fetch="git://github.com/" />
   <remote name="aosp" fetch="https://android.googlesource.com/" />
-  <default revision="refs/tags/master" remote="github" sync-j="16" />
+  
   <!-- Removed Sources -->
-  <!--
+
   <remove-project name="Euphoria-OS-Legacy/android_build" />
   <remove-project name="Euphoria-OS-Legacy/android_packages_apps_Settings" />
   <remove-project name="Euphoria-OS-Legacy/android_vendor_eos" />
-  -->
+
 
   <!-- Device Specific Sources -->
   <project name="Euphoria-G2/android_device_lge_f320" path="device/lge/f320" remote="github" revision="lollipop" />
